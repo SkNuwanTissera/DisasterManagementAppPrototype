@@ -16,6 +16,13 @@ import { ViewRequest } from '../view-request/view-request';
 })
 export class Requests {
 
+  ad={
+    title:"Axio Hybrid 2015",
+    date:"23.11.17 | Dr.Abesinghe",
+    price:"Rs. 500000 Negotiable",
+    detail:"NKE-165 | Malabe | O Km | Brand New | "
+  }
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
