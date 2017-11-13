@@ -5,17 +5,190 @@
       <ion-icon name="menu"></ion-icon>
     </button>
   </ion-navbar>
+  <ion-content>
+    <ion-card>
+      <ion-card-header>
+        Explore Nearby
+      </ion-card-header>
+
+      <ion-list>
+        <button ion-item>
+          <ion-icon name="cart" item-start></ion-icon>
+          Shopping
+        </button>
+
+        <button ion-item>
+          <ion-icon name="medical" item-start></ion-icon>
+          Hospital
+        </button>
+
+        <button ion-item>
+          <ion-icon name="cafe" item-start></ion-icon>
+          Cafe
+        </button>
+
+        <button ion-item>
+          <ion-icon name="paw" item-start></ion-icon>
+          Dog Park
+        </button>
+
+        <button ion-item>
+          <ion-icon name="beer" item-start></ion-icon>
+          Pub
+        </button>
+
+        <button ion-item>
+          <ion-icon name="planet" item-start></ion-icon>
+          Space
+        </button>
+
+      </ion-list>
+    </ion-card>
+  </ion-content>
+  <div class="container">
+
+    <br/>
+    <div class="row">
+
+      <div class="col-xs-4">
+        <label class="item item-input item-select">
+          <!--<div class="input-label">-->
+            <!--&nbsp;-->
+          <!--</div>-->
+          <select class="form-control">
+            <option selected>Make</option>
+            <option >Toyota</option>
+            <option>Nissan</option>
+            <option>BMW</option>
+            <option>Fiat</option>
+            <option>Chevrolet</option>
+            <option>Bajaj</option>
+            <option>Honda</option>
+            <option>Mahindra</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="col-xs-4"><label class="item item-input item-select">
+
+        <select class="form-control">
+          <option >Model</option>
+          <option >Grace</option>
+          <option>Vezel Rz</option>
+          <option>Vezel Ru</option>
+          <option>Lancer</option>
+          <option>Fit GP5</option>
+          <option>Fit GP4</option>
+
+        </select>
+      </label>
+      </div>
+
+      <div class="col-xs-4">
+
+        <label class="item item-input item-select">
+          <!--<div class="input-label">-->
+            <!--&nbsp;-->
+          <!--</div>-->
+          <select class="form-control">
+            <option selected>Condition</option>
+            <option >BrandNew</option>
+            <option>Reconditioned</option>
+            <option>Used</option>
+
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+
+        <label class="item item-input item-select">
+          <!--<div class="input-label">-->
+          <!--&nbsp;-->
+          <!--</div>-->
+          <select class="form-control">
+            <option selected>Price Range</option>
+            <option >Below 1m</option>
+            <option >Above 1m</option>
+            <option>1m-2m</option>
+            <option>2m-3m</option>
+            <option>3m-4m</option>
+            <option>4m-5m</option>
+            <option>5m-6m</option>
+            <option>Above 6m</option>
+
+          </select>
+        </label>
+      </div>
+      <div class="col-xs-4">
+
+        <label class="item item-input item-select">
+          <!--<div class="input-label">-->
+          <!--&nbsp;-->
+          <!--</div>-->
+          <select class="form-control">
+            <option selected>Make</option>
+            <option >Toyota</option>
+            <option>Nissan</option>
+            <option>BMW</option>
+
+          </select>
+        </label>
+      </div>
+      <div class="col-xs-4">
+        <label class="item item-input item-select">
+          <!--<div class="input-label">-->
+            <!--&nbsp;-->
+          <!--</div>-->
+          <select class="form-control">
+            <option selected>Make</option>
+            <option >Toyota</option>
+            <option>Nissan</option>
+            <option>BMW</option>
+            <option>Fiat</option>
+            <option>Chevrolet</option>
+            <option>Bajaj</option>
+            <option>Honda</option>
+            <option>Mahindra</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </div>
 </ion-header>
 
-<ion-content>
+<ion-content class="card-background-page">
+
   <ion-card>
-    <ion-card-content>
-      <ion-card-title>
-
-      </ion-card-title>
-      <p>
-
-      </p>
-    </ion-card-content>
+    <img src="../../assets/car2.jpeg"/>
+    <div class="card-title">Ford Mustang</div>
+    <div class="card-subtitle">120450Km | Used | 233.4 M</div>
   </ion-card>
+
+  <ion-card>
+    <img src="../../assets/car6.jpg"/>
+    <div class="card-title">Volvo SUV</div>
+    <div class="card-subtitle">23433Km | Used | 12 M </div>
+  </ion-card>
+
+  <ion-card>
+    <img src="../../assets/car1.png"/>
+    <div class="card-title">Nissan 520d</div>
+    <div class="card-subtitle">24353 Km | Used | 232 M</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="../../assets/car7.jpg"/>
+    <div class="card-title">Porcsche 911</div>
+    <div class="card-subtitle">243454 Km | Used | 23 M</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="../../assets/car8.jpg"/>
+    <div class="card-title">Swift </div>
+    <div class="card-subtitle">243454 Km | Used | 23 M<</div>
+  </ion-card>
+
 </ion-content>
+<script src="http://maps.google.com/maps/api/js?key=YOUR_API_KEY_GOES_HERE&sensor=true"></script>

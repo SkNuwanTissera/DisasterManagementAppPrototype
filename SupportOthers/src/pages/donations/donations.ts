@@ -16,6 +16,12 @@ import { ViewDonation } from '../view-donation/view-donation';
 })
 export class Donations {
 
+  str={
+    title:"Prius Hybrid 2015",
+    date:"23.11.17 | Dr.Hemal",
+    price:"Rs. 450000 Negotiable",
+    detail:"NKE-165 | Malabe | O Km | Brand New | "
+  }
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
