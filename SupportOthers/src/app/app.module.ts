@@ -16,7 +16,7 @@ import { Requests } from '../pages/requests/requests';
 import { Donations } from '../pages/donations/donations';
 import { Areas } from '../pages/areas/areas';
 import { NewRequest } from '../pages/new-request/new-request';
-import { NewDonation } from '../pages/new-donation/new-donation';
+import { NewDonation } from '../pages/new-donation/registration';
 import { ViewDonation } from '../pages/view-donation/view-donation'
 import { ViewRequest } from '../pages/view-request/view-request';
 

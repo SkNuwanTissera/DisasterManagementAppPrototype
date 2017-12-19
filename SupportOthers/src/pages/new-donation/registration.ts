@@ -10,7 +10,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @IonicPage()
 @Component({
   selector: 'page-new-donation',
-  templateUrl: 'new-donation.html',
+  templateUrl: 'registration.html',
 })
 export class NewDonation {
    form={

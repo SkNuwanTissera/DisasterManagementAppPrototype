@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs'
 
-import { NewDonation } from '../new-donation/new-donation';
-import { NewRequest } from '../new-request/new-request'; 
+import { NewDonation } from '../new-donation/registration';
+import { NewRequest } from '../new-request/new-request';
 
 /**
  * Generated class for the Menu page.
