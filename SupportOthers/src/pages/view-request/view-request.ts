@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { Areas } from '../areas/areas';
+
 /**
  * Generated class for the ViewRequest page.
  *
@@ -19,6 +21,12 @@ export class ViewRequest {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ViewRequest');
+  }
+
+  navigation(){
+
+    this.navCtrl.push(Areas);
+
   }
 
 }

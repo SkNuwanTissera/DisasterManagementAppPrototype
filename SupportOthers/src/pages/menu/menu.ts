@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs'
+import { PostPage } from '../post/post'
 
-import { NewDonation } from '../new-donation/registration';
-import { NewRequest } from '../new-request/new-request';
+
 
 /**
  * Generated class for the Menu page.
@@ -25,12 +25,19 @@ export class Menu {
     console.log('ionViewDidLoad Menu');
   }
 
-  addDonations(){
-    console.log('add donations called');
-    this.navCtrl.push(NewDonation);
-  }
-  addNeeds(){
-    console.log('add needs called');
-    this.navCtrl.push(NewRequest);
+  menu(elm){
+    console.log(elm);
+    switch (elm){
+      case '0':
+
+        return;
+      case  '1':
+        this.navCtrl.push(PostPage);
+        return;
+      default:
+
+        return;
+
+    }
   }
 }

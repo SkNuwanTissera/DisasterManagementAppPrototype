@@ -17,4 +17,8 @@ export class HomePage {
     this.navCtrl.push(ViewRequest);
   }
 
+  view(){
+    this.navCtrl.push(ViewRequest);
+  }
+
 }

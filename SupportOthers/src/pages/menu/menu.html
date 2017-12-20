@@ -7,20 +7,23 @@
 <ion-menu type="overlay" [content]="mycontent">
   <ion-content>
     <ion-list>
-      <ion-item (click)="addDonations()">
+      <ion-item (click)="menu('0')">
           Home
       </ion-item>
-      <ion-item (click)="addNeeds()">
-        Sell an Item
+      <ion-item (click)="menu('1')">
+        Post An Advertisement
       </ion-item>
-      <ion-item (click)="addNeeds()">
-          Starred Ads
+      <ion-item (click)="menu('2')">
+        Deals
       </ion-item>
-      <ion-item (click)="addNeeds()">
+      <ion-item (click)="menu('3')">
+       FAQ
+      </ion-item>
+      <ion-item (click)="menu('4')">
         My Account
       </ion-item>
-      <ion-item (click)="addNeeds()">
-        Settings
+      <ion-item (click)="menu('5')">
+       Login
       </ion-item>
     </ion-list>
   </ion-content>

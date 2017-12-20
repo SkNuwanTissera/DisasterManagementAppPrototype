@@ -19,6 +19,7 @@ import { NewRequest } from '../pages/new-request/new-request';
 import { NewDonation } from '../pages/new-donation/registration';
 import { ViewDonation } from '../pages/view-donation/view-donation'
 import { ViewRequest } from '../pages/view-request/view-request';
+import { PostPage } from '../pages/post/post';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ViewRequest } from '../pages/view-request/view-request';
     NewDonation,
     NewRequest,
     ViewRequest,
-    ViewDonation
+    ViewDonation,
+    PostPage
   ],
   imports: [
     BrowserModule,
@@ -54,7 +56,8 @@ import { ViewRequest } from '../pages/view-request/view-request';
     NewDonation,
     NewRequest,
     ViewRequest,
-    ViewDonation
+    ViewDonation,
+    PostPage
   ],
   providers: [
     StatusBar,
