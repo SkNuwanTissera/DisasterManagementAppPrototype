@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac20a1db-d219-43e8-82a8-20862baac1ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IonicApp.iml" afterPath="$PROJECT_DIR$/.idea/IonicApp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/config.xml" afterPath="$PROJECT_DIR$/SupportOthers/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/package.json" afterPath="$PROJECT_DIR$/SupportOthers/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/app/app.module.ts" afterPath="$PROJECT_DIR$/SupportOthers/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/index.html" afterPath="$PROJECT_DIR$/SupportOthers/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/areas/areas.html" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/areas/areas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/home/home.html" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/menu/menu.html" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/menu/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/menu/menu.scss" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/menu/menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/menu/menu.ts" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/menu/menu.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/new-request/new-request.html" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/new-request/new-request.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/view-request/view-request.html" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/view-request/view-request.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SupportOthers/src/pages/view-request/view-request.ts" afterPath="$PROJECT_DIR$/SupportOthers/src/pages/view-request/view-request.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -545,7 +531,7 @@
       <workItem from="1513586057311" duration="9144000" />
       <workItem from="1513654044884" duration="4411000" />
       <workItem from="1513743234187" duration="1969000" />
-      <workItem from="1513781193327" duration="6250000" />
+      <workItem from="1513781193327" duration="6366000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1513654511989</created>
@@ -554,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513654511989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done">
+      <created>1513787721488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513787721488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22590000" />
+    <option name="totallyTimeSpent" value="22706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="-683" width="1142" height="646" extended-state="0" />
